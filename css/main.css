@@ -1171,6 +1171,7 @@ button:focus {
 }
 
 .services-item {
+   min-height: 280px;
   padding: 30px 15px;
   background: #fff;
   border-radius: 4px;
