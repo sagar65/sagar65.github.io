@@ -1,0 +1,95 @@
+<body>
+<style>
+
+.counter_inner .counter_item {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 20%;
+  flex: 0 0 20%;
+  text-align: center;
+ 
+}
+.counter_area {
+
+  padding: 85px 0px 85px 0px;
+}
+#section-counter {
+  position: relative;
+  z-index: 0; }
+#section-counter:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: '';
+    z-index: -1;
+    opacity: .8;
+    background: darkorange;
+}
+.counter_item p {
+     margin-top: 0;
+    margin-bottom: 1rem;
+    color: white;
+    font-family: 'Nunito Sans';
+    font-size: large;
+      
+	  
+}
+.counter_item h4 {
+  font-size: 48px;
+  font-family: 'Oswald';
+  font-weight: 600;
+  color: white;
+  
+}
+
+</style>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>	  
+<section class="counter_area ftco-animated mb-5" id="section-counter" style="background-image:url(https://ak.picdn.net/shutterstock/videos/3259018/thumb/1.jpg);" data-stellar-background-ratio="0.5">
+        	<div class="container">
+        		<div class="row m0 counter_inner">
+				<div class="col-sm-3">
+        			<div class="counter_item">
+        				<h4 class="countup">59</h4>
+        				<p>Projects Completed</p>
+        			</div>
+						</div>
+						<div class="col-sm-3">
+        			<div class="counter_item">
+        				<h4 class="countup">552</h4>
+        				<p>Really Happy Clients</p>
+        			</div>
+					</div>
+					<div class="col-sm-3">
+        			<div class="counter_item">
+        				<h4 class="countup ">596</h4>
+        				<p>Total Tasks Completed</p>
+        			</div>
+					</div>
+						<div class="col-sm-3">
+        			<div class="counter_item">
+        				<h4 class="countup">100</h4>
+        				<p>Cups of Coffee Taken</p>
+        			</div>
+					</div>
+					
+        		</div>
+        	</div>
+        </section>
+
+ <script>
+$('.countup').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 6000,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now));
+        }
+    });
+});
+ </script>
+</body>
