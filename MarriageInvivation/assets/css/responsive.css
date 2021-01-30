@@ -1,0 +1,1297 @@
+/*
+ Table Of Contents
+ 1.) Media Query for Handheld Devices
+ 2.) Media Query for Tablet
+ 3.) Media Query for mobile
+ ===============================================*/
+/*
+ 1.) Media Query for Handheld Devices
+ ===============================*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.touch span {
+		font-size: 26px;
+	}
+	.event-description {
+		padding-top: 27px !important;
+		padding-right: 10px;
+	}
+	.event-description-wrapper {
+		min-height: 440px;
+		width: 450px;
+	}
+	.left-section-content, .right-section-content {
+		width: 45%;
+	}
+	.met-section, .met-section-right {
+		width: 100%;
+	}
+	.met-section-right ul li {
+		width: 33.33%;
+	}
+	.met-section::after {
+		right: -16%;
+	}
+	.met-section-right::after {
+		left: -15.5%;
+	}
+	.banner-content-wrapper {
+		width: 723px;
+	}
+	.home nav{
+		margin-right: 0px;
+	}
+	.bell:after {
+		right: -10%;
+	}
+	.bell:before {
+		left: 96%;
+	}
+	#people .owl-next:after, #wedding-item .owl-next:after {
+		left: -11px;
+	}
+	#people .owl-prev:before, #wedding-item .owl-prev:before {
+		right: 0;
+	}
+	#wedding-item .owl-prev:before {
+		right: -8px;
+	}
+	.gallery-blog ul li, .home-agency .portfolio ul li {
+		height: 248px;
+		width: 50%;
+	}
+	.gallery-blog ul li a, .gallery-blog ul li a img, .home-agency .portfolio ul li img, .home-agency .portfolio ul li a {
+		height: 248px;
+	}
+	.inner-header-wrapper{
+		min-height: 730px;
+	}
+	.quoto .overlay{
+		padding-left:24px;
+		padding-right: 24px;
+	}
+	.profile-info strong{
+		font-size: 13px;
+	}
+	/*===============================================================================Home-agency=============================================================*/
+	.home-agency nav {
+		margin-right: 0px;
+		margin-top: 3px;
+	}
+	.home-agency .logo img{
+		width: 186px;
+	}
+	.home-agency .banner .banner-caption {
+		width: auto;
+		top: 67% !important;
+	}
+	.home-agency .services .circle {
+		height: 210px;
+		width: 210px;
+		margin-left: 0;
+	}
+	.home-agency .services .circle .type-name span {
+		font-size: 14px;
+	}
+	.home-agency .portfolio ul li img {
+		width: 100%;
+	}
+	.home-agency .about-us .blog-wrap .detail {
+		padding-top: 79px
+	}
+	.home-agency .about-us .blog-wrap .detail .para1 {
+		font-size: 31px;
+	}
+	.home-agency .owl-prev:before, .home-agency #partner-slider .owl-prev:before {
+		right: 0;
+	}
+	.home-agency .owl-prev:before, .home-agency .owl-next:after {
+		top: 18%;
+	}
+	.home-agency .owl-next:after, #partner-slider .owl-next:after {
+		left: 0;
+		right: auto;
+	}
+	.home-agency .our-team p, .home-agency .wedding-plan span {
+		width: auto;
+	}
+	.home-agency .recent-posts h3 a {
+		font-size: 19px;
+	}
+	.home-agency .touch-class {
+		margin-right: 20px;
+	}
+	.home-agency .sec-block {
+		margin-left: 150px;
+	}
+	.travel-page .btn {
+		margin-bottom: 30px;
+	}
+	.error .navigation > li:hover .drop-down {
+		width: 125px;
+	}
+	.error nav {
+		margin-right: 39px;
+	}
+	.event-page-content .span-wrapper{
+	padding-left: 0;
+	padding-right:0;
+	}
+		.padd-left {
+		padding-left: 15px;
+	}
+	.padd-right {
+		padding-right: 15px;
+	}
+}
+@media only screen and (min-width: 1200px) and (max-width: 1360px) {
+	#people .owl-next:after, #wedding-item .owl-next:after {
+		left: -11px;
+	}
+	#people .owl-prev:before, #wedding-item .owl-prev:before {
+		right: 0;
+	}
+	#wedding-item .owl-prev:before {
+		right: -8px;
+	}
+	.error .navigation > li:hover .drop-down {
+		width: auto;
+	}
+}
+/*
+ 2.) Media Query for Tablet
+ ===============================*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+   
+	.home nav{
+		margin-right: 0px;
+	}
+	.navigation > li {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	.navigation li a {
+		font-size: 15px;
+	}
+	.drop-down li a {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.home-agency .navigation > li:hover .drop-down, .home .navigation > li:hover .drop-down{
+		left:auto;
+		right: 0;
+	}
+	.banner {
+		min-height: 429px;
+	}
+	.banner-content-wrapper {
+		bottom: 70px;
+		width: 652px;
+	}
+	.happy-couple {
+		padding-top: 50px;
+	}
+	.bell:before {
+		left: 94.5%;
+		top: 10.4%;
+	}
+	.bell:after {
+		top: 7%;
+		right: -13%;
+	}
+	.inner-header-wrapper-left h3, .inner-header-wrapper-right h3 {
+		padding-top: 0px;
+	}
+	.count-down ul li {
+		padding: 7px 45px;
+	}
+	.count-down {
+		padding: 38px 20px;
+	}
+	.our-story {
+		padding: 50px 20px;
+	}
+	.our-story p {
+		font-size: 30px;
+	}
+	.Our-success-Story {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.met-section, .met-section-right {
+		width: 100%;
+	}
+	.left-section-content, .right-section-content {
+		width: 50%;
+	}
+	.right-arrow-cls::before {
+		top: -13px;
+	}
+	.arrow-cls:before, .css-shape:before {
+		background-size: 305px auto;
+	}
+	.left-section-content .arrow-cls:before {
+		top: 9px;
+	}
+	.right-arrow-cls:before {
+		top: -10px;
+	}
+	.met-section:after {
+		left: 101%;
+		top: 90px;
+	}
+	.met-section-right:after {
+		left: -38px;
+		top: 89px;
+	}
+	.met-section-right ul li {
+		width: 33.33%;
+	}
+	.event-description-wrapper {
+		min-height: 497px;
+		margin-top: 143px;
+		width: 408px;
+	}
+	.wedding-event .event-description {
+		padding-right: 33px;
+		padding-left: 74px;
+		padding-top: 51px;
+	}
+	.profile-info strong {
+		font-size: 12px;
+	}
+	.event-description-wrapper::before {
+		right: 88%;
+	}
+	.reception-description-sec::before {
+		right: -43px;
+	}
+	.padding-right .pull {
+		right: 23%;
+	}
+	.padding-right .push {
+		left: -2px;
+	}
+	#people .owl-prev::before, #wedding-item .owl-prev::before {
+		height: 46px;
+		width: 46px;
+		padding-top: 4px;
+		right: -7px;
+		top: 34%;
+	}
+	#people .owl-next::after, #wedding-item .owl-next::after {
+		height: 46px;
+		width: 46px;
+		padding-top: 4px;
+		left: -8px;
+		top: 34%;
+	}
+	.friend-wishes {
+		padding-top: 70px;
+	}
+	#people-thought {
+		padding-top: 0px;
+	}
+	.wedding-event, .touch, .gallery-part, .wedding-gift, .attending-class {
+		padding-top: 70px;
+	}
+	.wedding-section-gift, .gallery-part, .wedding-event, .friend-wishes {
+		padding-bottom: 70px;
+	}
+	.touch span {
+		display: block;
+		margin-bottom: 0px;
+		font-size: 28px;
+		width: 70%;
+		line-height: 1.5;
+	}
+	.attending-class {
+		background-size: cover;
+		padding-bottom: 80px;
+	}
+	.gallery-blog ul li, .home-agency .portfolio ul li {
+		height: 248px;
+		width: 50%;
+	}
+	.gallery-blog ul li a, .gallery-blog ul li a img, .home-agency .portfolio ul li a, .home-agency .portfolio ul li a img {
+		height: 248px;
+	}
+	.home-agency .portfolio ul li a img {
+		width: 100%;
+	}
+	.rsvp-wrapper {
+		margin-bottom: 0px;
+	}
+	.rsvp-wrapper {
+		padding: 34px 31px;
+	}
+	.inner-header-wrapper img {
+		width: 90%;
+	}
+	.left-section-content {
+		padding-right: 20px;
+	}
+	.right-section-content {
+		padding-left: 20px;
+	}
+	.quoto .overlay{
+		padding-left:0px;
+		padding-right: 0px;
+	}
+	/*=======================================home-agency==============================================*/
+	.home-agency nav {
+		margin-right: 0;
+		margin-top: 12px;
+	}
+	.home-agency .logo img{
+		width:107px;
+	}
+	.home-agency .padd-left{
+		padding-left: 15px;
+	}
+	.home-agency .padd-right{
+		padding-right: 15px;
+		padding-left:15px;
+	}
+	.home-agency .banner {
+		min-height: 0px;
+	}
+	.home-agency .banner ul {
+		margin-top: 0px;
+	}
+	.home-agency .navigation > li {
+		padding: 6px 0 8px 11px;
+	}
+	.home-agency .banner img {
+		height: auto;
+		display: block;
+	}
+	.home-agency .banner .banner-caption {
+		width: 780px;
+		top: 67% !important;
+	}
+	.home-agency .banner .banner-caption .tp-splitted {
+		font-size: 37px !important;
+	}
+	.home-agency .navigation li a {
+		font-size: 15px;
+	}
+	.home-agency .banner .banner-caption .h1 {
+		line-height: 58px;
+		letter-spacing: 0px;
+	}
+	.home-agency .what-we-do {
+		padding-top: 70px;
+	}
+	.home-agency .what-we-do .info-wrap, .home-agency .how-we-do .info-wrap, .home-agency .services .info-wrap {
+		width: 100%;
+		padding: 0px 15px;
+	}
+	.home-agency .our-team p {
+		width: auto;
+	}
+	.event-img img {
+		width: 100%;
+	}
+	.home-agency .what-we-do .event-img a {
+		width: 50px;
+		height: 50px;
+		bottom: -23px;
+	}
+	.home-agency .what-we-do .event-img a i {
+		font-size: 22px;
+	}
+	.home-agency .what-we-do .event-img {
+		margin-bottom: 44px;
+	}
+	.home-agency .what-we-do .event strong {
+		font-size: 24px;
+	}
+	.home-agency .services .circle {
+		width: 160px;
+		height: 160px;
+		margin-left: 0;
+	}
+	.type-name > img {
+		width: 50%;
+	}
+	.home-agency .services .circle .type-name span {
+		padding-top: 8px;
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.home-agency .how-we-do .event a {
+		top: -25px;
+		width: 50px;
+		height: 50px;
+	}
+	.home-agency .what-we-do .event h3 a, .home-agency .detail h3 a, .home-agency .post-blog h3 a {
+		font-size: 23px;
+	}
+	.home-agency .how-we-do .event a i {
+		font-size: 25px;
+	}
+	.home-agency .our-team .group .detail > a {
+		height: 41px;
+		width: 41px;
+	}
+	.home-agency .how-we-do .event strong:after {
+		left: 33%;
+	}
+	.home-agency .about-us .blog-wrap .detail {
+		padding: 93px 50px 80px;
+		height: 612px;
+	}
+	.home-agency .about-us .blog-wrap .detail .para1 {
+		font-size: 22px;
+		line-height: 33px;
+	}
+	.home-agency .about-us .blog-wrap .detail .para2 {
+		font-size: 17px;
+		line-height: 28px;
+	}
+	.home-agency .about-us .blog-wrap .video img {
+		height: 612px;
+	}
+	.home-agency .about-us .blog-wrap .video a {
+		width: 130px;
+		height: 130px;
+	}
+	.home-agency .about-us .blog-wrap .video a .fa-play {
+		left: 58%;
+		font-size: 59px;
+	}
+	.home-agency .wedding-plan span {
+		font-size: 27px;
+		margin-bottom: 30px;
+		width: auto;
+	}
+	.home-agency .touch-class {
+		margin-right: 20px;
+	}
+	.home-agency .owl-prev:before, .home-agency #partner-slider .owl-prev:before {
+		right: 0;
+	}
+	.home-agency .owl-prev:before, .home-agency .owl-next:after {
+		top: 14%;
+	}
+	.home-agency .our-team .group .detail span {
+		font-size: 17px;
+	}
+	.home-agency .owl-next:after, #partner-slider .owl-next:after {
+		left: 0;
+		right: auto;
+	}
+	.home-agency .wedding-plan .btn {
+		margin: 0px auto;
+		display: inline-block;
+	}
+	.home-agency .wedding-plan {
+		padding: 52px 0 30px;
+	}
+	.home-agency .sec-block {
+		width: 25%;
+		margin-left: 38px;
+	}
+	.home-agency .sec-block:last-child {
+		width: 35%;
+	}
+	.home-agency .status ul li {
+		padding: 65px 0;
+	}
+
+	/*======================blog-detail================*/
+	.blog nav, .event-page nav {
+		margin-right: 18px;
+	}
+	.event-page-content .span-wrapper {
+		margin-bottom: 50px;
+		padding: 30px 6px;
+	}
+    .event-page .logo, .blog .logo{
+    	margin-left: 10px;
+    }
+	/*======================travel-p-page================*/
+	.left-inner-header .park-class:after {
+		height: 39px;
+	}
+	.header-center-content h2:after {
+		left: 21%;
+	}
+	.left-inner-header .park-class {
+		font-size: 14px;
+		padding: 10px 30px 10px 8px;
+	}
+	.travel-page .bg-color .right-part {
+		padding-top: 14px;
+	}
+	.travel-page .bg-color h3 {
+		margin-bottom: 0px;
+	}
+	.travel-page .bg-color address {
+		padding: 22px 0 5px;
+	}
+	.travel-page .btn {
+		margin-bottom: 30px;
+	}	
+	/*======================404-page================*/
+	
+	
+}
+
+/*
+ 3.) Media Query for mobile
+ ===============================*/
+@media only screen and (max-width: 767px) {
+	nav {
+		width: 100%;
+		margin-top: 0;
+	}
+	.navigation {
+		width: 100%;
+		float: none;
+		left: 0;
+		position: absolute;
+		top: 69px;
+		z-index: 99999;
+		background: #f3dbbd;
+		display: none;
+	}
+	.bell img, .jack img, .event-content-section .right-part img, .travel-page .left-part img,.categories-wrapper ul li a img,.recent-post-wrapper figure a img{
+		width: 100%;
+	}
+	.banner-content-wrapper .title-head{
+		font-size: 28px !important;
+		line-height: 1.2 !important;
+		letter-spacing: 0px !important
+	}
+	.home .tp-mask-wrap > div > .tp-splitted > .tp-splitted:nth-child(2) .tp-splitted {
+		font-size: 30px !important;
+		margin: 0;
+    }
+	.banner-content-wrapper span{
+		font-size: 15px;
+	}
+	.navigation li, .home-agency .navigation > li {
+		width: 100%;
+		float: none;
+		padding: 0;
+		border-bottom: 1px solid rgba(0,0,0,0.1);
+	}
+	.navigation li:last-child, .drop-down li:last-child {
+		border-bottom: none;
+	}
+	.navigation li a {
+		display: block;
+		padding: 10px 0px 10px 22px;
+	}
+	.drop-down {
+		position: static;
+		transition: none;
+		opacity: 1;
+		width: 100%;
+		display: none;
+	}
+	.banner {
+		min-height: 386px;
+	}
+	.banner-content-wrapper {
+		bottom:111px;
+		width: 90%;
+		padding: 26px 0px;
+	}
+	.tparrows.tp-leftarrow, .tparrows.tp-rightarrow {
+		top: auto !important;
+		transform: none;
+		bottom: 0 !important;
+		height: 40px;
+		width: 40px;
+	}
+	.tparrows.tp-leftarrow:before, .tparrows.tp-rightarrow:before {
+		font-size: 32px;
+	}
+	.banner-content-wrapper h1 {
+		font-size: 39px;
+	}
+	.header-center h2 {
+		font-size: 30px;
+		line-height: 1.3;
+	}
+	.bell:before, .bell:after {
+		display: none;
+	}
+	.inner-header-wrapper-left h3 a, .inner-header-wrapper-right h3 a {
+		padding-top: 20px;
+	}
+	.inner-header-wrapper-left h3 a::after {
+		left: 0;
+		right: auto;
+	}
+	.happy-couple, .our-story, .Our-success-Story, .wedding-event, .important-people, .friend-wishes, .touch, .wedding-section-gift, .wedding-gift, .wedding-event-top {
+		padding-top: 40px;
+	}
+	.our-story, .img-section, .friend-wishes, .wedding-section-gift {
+		padding-bottom: 40px;
+	}
+	.img-section {
+		padding-top: 40px;
+	}
+	.wedding-event, .Our-success-Story {
+		padding-bottom: 0px;
+	}
+	.gallery-part {
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+	.bell, .jack {
+		width: 100%;
+		float: none;
+	}
+	.bell {
+		margin: 0px;
+	}
+	.bell:after, .count-down ul li:after {
+		background: none;
+	}
+	.inner-header-wrapper-left, .inner-header-wrapper-right {
+		padding: 4px 15px 45px 15px;
+		text-align: left;
+		min-height: initial;
+	}
+	.inner-header-wrapper img {
+		position: static;
+		display: block;
+	}
+	.inner-header-wrapper-left h3, .inner-header-wrapper-right h3 {
+		background-position: left bottom;
+		padding-top: 15px;
+	}
+	.inner-header-wrapper-left p, .inner-header-wrapper-right p {
+		padding-bottom: 45px;
+	}
+	.count-down {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.count-down ul {
+		margin: 0 auto;
+	}
+	.countdown-row, .met-section img, .fancybox-button > img {
+		width: 100% !important;
+	}
+	.countdown-row {
+		display: block;
+		text-align: center;
+	}
+	.countdown-section {
+		float: none !important;
+		width: 100% !important;
+		margin-bottom: 15px !important;
+	}
+	.our-success-Story {
+		padding-top: 25px;
+		padding-bottom: 0;
+	}
+	.our-story p {
+		padding: 0px 0px;
+		font-size: 20px;
+		line-height: 1.5;
+	}
+	.left-section-content, .right-section-content {
+		width: 100%;
+		float: none;
+	}
+	.count-down .countdown-amount, .countdown-section, .count-down .countdown-section, .countdown-amount, .countdown-period {
+		display: block;
+		text-align: center;
+	}
+	.met-section:after, .time-line-divider::after {
+		display: none;
+	}
+	.right-section-content {
+		padding-top: 0px;
+	}
+	.left-right-wrapper {
+		width: 100%;
+		padding-top: 70px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.tabbing-wrapper {
+		margin-bottom: 30px;
+	}
+	.gallery-img-sec {
+		margin-bottom: 30px;
+	}
+	.attending-class {
+		padding-top: 25px;
+		padding-bottom: 50px;
+		background-position: 90% top;	
+		position: relative;	
+	}
+	.attending-class .container{
+	      position: relative;
+		  z-index: 9;
+	}
+	.attending-class:before {
+    background: #000;
+    content: "";
+    height: 100%;
+    opacity: 0.49;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    }
+	.time-line-divider {
+		width: 0px;
+	}
+	.met-section, .met-section-right {
+		margin-left: 2px;
+		width: 100%;
+		padding: 40px 21px;
+		text-align: left;
+		margin-bottom: 30px;
+	}
+	.quoto .overlay{
+		padding-left: 7px;
+		padding-right: 7px;
+	}
+	.overlay .profile-info{
+		padding-left:10px;
+		padding-right: 10px;
+	}
+	.right-section-content .met-section-right:last-child {
+		margin-bottom: 0px;
+	}
+	.time-line-divider::after {
+		background: none;
+		font-size: 0;
+	}
+	.met-section h3 {
+		margin-bottom: 20px;
+	}
+	.gallery-blog ul li {
+		height: 52px;
+	}
+	.arrow-cls {
+		margin-bottom: 20px;
+		margin-left: 14px;
+	}
+	.arrow-cls::before {
+		background: none;
+	}
+	.met-section-right::after {
+		background: none;
+	}
+	.met-section-right ul li {
+		width: 33.33%;
+	}
+	.padding-right figure {
+		padding-top: 0px;
+	}
+	.event-description-wrapper {
+		margin-top: 30px;
+		width: 100%;
+		min-height: 488px;
+		margin-bottom: 25px;
+	}
+	.event-description-wrapper:before {
+		display: none;
+	}
+	.day-class, .map-class, .clk-class, .venue-class {
+		font-size: 12px;
+	}
+	.day-class:before {
+		font-size: 16px;
+		right: 105%;
+	}
+	.map-class:before {
+		font-size: 16px;
+		right: 105%;
+	}
+	.event-description > p {
+		font-size: 13px;
+	}
+	.event-description > .read-more {
+		margin-bottom: 20px;
+		bottom: 43px;
+		left: 46px;
+		position: absolute;
+		margin-bottom: 0;
+	}
+	.gallery-blog ul li {
+		width: 100%;
+		float: none;
+		height: auto;
+	}
+	.gallery-img-sec img {
+		display: block;
+	}
+	.wedding-event .event-description {
+		padding: 82px 20px 0 38px;
+	}
+	#people .img, .quoto {
+		margin-right: 15px;
+		padding-left: 15px;
+	}
+	#people .owl-page, #wedding-item .owl-page {
+		margin-right: 9px;
+		margin-top: 19px;
+	}
+	#people-thought {
+		padding-top: 0px;
+	}
+	.touch span {
+		font-size: 22px;
+		display: block;
+		margin-bottom: 30px;
+		float: none;
+		line-height: 1.5;
+	}
+	.touch-class {
+		float: none;
+	}
+	.header-center {
+		padding: 11px 15px;
+	}
+	.btn, input.btn, button.btn {
+		min-width: 45%;
+		font-size: 14px;
+		margin: 5px;
+		display: inline-block;
+	}
+	.sub-para {
+		width: 100%;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.inner-wrapper .input-box {
+		width: 100%;
+		margin-bottom: 10px;
+		overflow: hidden;
+		float: none;
+	}
+	.inner-wrapper .input-box:first-child {
+		padding-right: 0px;
+	}
+	.inner-wrapper .input-box:last-child {
+		padding-left: 0px;
+	}
+	.primary-footer h4 {
+		font-size: 21px;
+		margin-bottom: 8px;
+	}
+	.primary-footer h4 span {
+		margin: 0;
+	}
+	.count-down .countdown-section:after {
+		display: none;
+	}
+	.oct-class {
+		font-size: 17px;
+	}
+	.footer-logo > figure, .attending-class form button {
+		margin-bottom: 20px;
+	}
+	.primary-footer {
+		padding: 31px 0 35px;
+	}
+	.main-footer {
+		padding-bottom: 0;
+	}
+	.rsvp-wrapper {
+		padding: 15px 17px 37px;
+	}
+	.left-footer, .right-footer {
+		width: 100%;
+		float: none;
+		text-align: center;
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+	.psd-temp-class {
+		font-size: 14px;
+		line-height: 1.4;
+	}
+	.circle-class {
+		float: none;
+		display: inline-block;
+	}
+	.gift-class {
+		margin-right: 0px;
+	}
+	.padding-class {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.header-cont {
+		padding: 12px 0px 13px;
+	}
+	.home-menu {
+		display: block;
+		top: 17px;
+		right: 16px;
+	}
+	/*================================home-agency===============================================*/
+	.home-agency .logo, .logo{
+		margin-left: 14px;
+	}
+	.home .logo{
+		margin-left: 0px;
+	}
+	.home-agency .home-menu {
+		top: 30px;
+	}
+	.home-agency .navigation{
+		top: 93px;
+	}
+	.home-agency .banner img {
+		height: 100%;
+		display: block;
+	}
+	.home-agency .header-cont, .blog-single-quotes .media .timing-class {
+		padding-bottom: 13px;
+	}
+	.home-agency .header-cont,{
+		padding-top: 10px;
+	}
+	.home-agency .banner {
+		min-height: 170px;
+	}
+	.home-agency .banner .banner-caption .h1 {
+		letter-spacing: 0px;
+		line-height: 38px;
+		font-size: 30px;
+	}
+	.home-agency .what-we-do, .home-agency .services, .home-agency .get-touch, .home-agency .how-we-do, .home-agency .about-us, .home-agency .our-team {
+		padding-top: 70px;
+	}
+	.home-agency .what-we-do {
+		padding-bottom: 0px;
+	}
+	.home-agency .what-we-do .info-wrap, .home-agency .services .info-wrap, .home-agency .how-we-do .info-wrap, .home-agency .get-touch .info-wrap {
+		padding: 0px 20px;
+		text-align: center;
+	}
+	.home-agency .what-we-do .info-wrap, .home-agency h2::after, .home-agency .services .info-wrap, .home-agency .how-we-do .info-wrap, .home-agency .portfolio .info-wrap, .home-agency .about-us .info-wrap, .home-agency .our-team .info-wrap, .home-agency .friend-wishes .info-wrap, .home-agency .wedding-gift .info-wrap, .home-agency .get-touch .info-wrap {
+		width: 100%;
+	}
+	.home-agency h2:after,.home-agency .services .info-wrap h2:after {
+	    background-position: center center;
+	}
+	.home-agency h2 {
+		padding-bottom: 35px;
+		letter-spacing: 3px;
+	}
+	.home-agency p {
+		margin-bottom: 45px;
+		padding-bottom: 0px;
+		text-align: left;
+	}
+	.padd-left {
+		padding-left: 15px;
+	}
+	.padd-right {
+		padding-right: 15px;
+	}
+	.home-agency .event-img img, .recent-posts figure img{
+		width: 100%;
+	}
+	.home-agency .what-we-do .event-img a {
+		width: 50px;
+		height: 50px;
+		bottom: -22px;
+	}
+	.home-agency .what-we-do .event-img a i {
+		font-size: 25px;
+		top: 25%;
+	}
+	.home-agency .what-we-do .event-img {
+		margin-bottom: 35px;
+	}
+	.home-agency .footer-logo > a {
+		float: none;
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+	.home-agency .primary-footer {
+		padding: 35px 20px 1px;
+	}
+	.home-agency .sec-block {
+		float: none;
+		width: 100%;
+		margin-left: 0px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.home-agency .footer-logo .sec-block span {
+		font-size: 1.5;
+	}
+	.home-agency .left-footer {
+		padding: 8px;
+	}
+	.home-agency .services .info-wrap p, .home-agency .how-we-do .info-wrap p, .home-agency .services {
+		padding-bottom: 0px;
+	}
+	.psd-temp-class {
+		line-height: 1.6;
+	}
+	.home-agency .services .circle {
+		margin-left: 15px;
+		margin: 0 auto 49px;	
+	}
+	.home-agency .how-we-do .event a {
+		height: 50px;
+		width: 50px;
+		left: 44%;
+		top: -26px;
+	}
+	.home-agency .how-we-do .event a i {
+		font-size: 24px;
+	}
+	.home-agency .how-we-do .event {
+		padding: 45px 20px 5px;
+		margin-bottom: 70px;
+	}
+	.home-agency .portfolio ul li {
+		float: none;
+		width: 100%;
+		height: auto;
+	}
+	.home-agency .portfolio ul li img {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	.home-agency .about-us .blog-wrap .video {
+		height: auto;
+	}
+	.home-agency .portfolio {
+		padding-bottom: 60px;
+	}
+	.home-agency .about-us .blog-wrap .detail {
+		width: 100%;
+		float: none;
+		padding: 65px 30px;
+		background-position: 5px 5px, 98% 5px, 4px 99%, 99% 99%;
+		margin-bottom: 35px;
+	}
+	.home-agency .about-us .blog-wrap .detail .para1 {
+		line-height: 35px;
+		font-size: 26px;
+		text-align: center;
+		padding-bottom: 0px;
+	}
+	.home-agency .about-us .blog-wrap .detail .para2 {
+		font-size: 21px;
+		line-height: 29px;
+		text-align: center;
+	}
+	.home-agency .about-us .blog-wrap .video {
+		width: 100%;
+		float: none;
+	}
+	.home-agency .about-us .blog-wrap .video img {
+		height: auto;
+	}
+	.home-agency .about-us .blog-wrap .video a .fa-play {
+		font-size: 43px;
+		left: 57%;
+	}
+	.home-agency .about-us .blog-wrap .video a {
+		width: 95px;
+		height: 95px;
+	}
+	.home-agency .our-team .group {
+		margin-right: 0px;
+		padding: 0px 20px;
+	}
+	.home-agency .status ul li {
+		width: 100%;
+		float: none;
+		padding: 30px 0px;
+	}
+	.home-agency .recent-posts .info-wrap {
+		width: 100%;
+		padding: 0px 10px;
+	}
+	.home-agency .recent-posts p, .home-agency .recent-posts {
+		padding-bottom: 0px;
+	}
+	.home-agency .recent-posts .post-blog {
+		margin-bottom: 40px;
+	}
+	.home-agency .wedding-plan span {
+		padding: 5px 13px 30px;
+		line-height: 36px;
+		font-size: 26px;
+		width: 100%;
+	}
+	.rsvp-wrapper {
+		padding: 30px 17px 37px;
+	}
+	.next-prev-class, .blog-single-quotes .media .emma, .blog-single-quotes .media .timing-class {
+		float: none;
+	}
+	.next-prev-class .pagination > li > a {
+		margin-right: 7px;
+	}
+	.blog .blog-page-content {
+		padding-top: 52px;
+		padding-bottom: 0;
+	}
+	.blog .blog-post-wrapper {
+		padding-top: 29px;
+	}
+	.banner-content-wrapper h1 {
+		font-size: 35px;
+	}
+	.banner-content-wrapper {
+		padding: 16px 0;
+	}
+	.blog .banner-content-wrapper h1:after {
+		left: 40%;
+		bottom: 15px;
+	}
+	.home-agency .banner .banner-caption, .home-agency .our-team p, .travel-page .header-center-content > p {
+		width: auto;
+	}
+	.home-agency .main-footer {
+		padding: 17px 0 0;
+	}
+	.home-agency .about-us .blog-wrap .video a, .blog-post-wrapper figure .control a {
+		border-width: 5px;
+		height: 60px;
+		width: 60px;
+	}
+	.home-agency .about-us .blog-wrap .video a .fa-play, .blog-post-wrapper figure .control a i {
+		font-size: 24px;
+	}
+	/*======================blog-detail================*/
+
+	.blog-single-quotes .share-block {
+		float: none;
+		overflow: hidden;
+		width: 100%;
+	}
+	.blog-single-quotes .pager {
+		float: none;
+		width: 100%;
+	}
+	.blog-detail-page .quotes {
+		padding: 30px 20px 37px;
+	}
+	.blog-detail-page .blog-single-quotes .quotes p {
+		font-size: 20px;
+	}
+	.blog-single-quotes .media .media-left a::after {
+		right: -104px;
+	}
+	.blog-single-quotes .media .media-left {
+		padding-right: 15px;
+	}
+	.blog-single-quotes .media {
+		padding-bottom: 30px;
+	}
+	.blog-single-quotes .media .media-heading {
+		font-size: 16px;
+	}
+	.blog .blog-post-wrapper .post-blog p {
+		font-size: 14px;
+		line-height: 1.4;
+	}
+	.aside-section .photo-gallery li {
+		border-bottom: 0px;
+	}
+	/*======================event-detail================*/
+	.event-page h1 {
+		line-height: 1.5;
+	}
+	.blog .banner-content-wrapper h1:after, .event-page .banner-content-wrapper h1:after, .travel-page .banner-content-wrapper h1:after {
+		bottom: 13px;
+		left: 0;
+	}
+	.banner-content-wrapper h1 {
+		font-size: 30px;
+	}
+	.event-page-content .span-wrapper {
+		padding: 20px 8px;
+		margin-bottom: 50px;
+	}
+	.event-page-content .village-class {
+		margin-top: 11px;
+	}
+	.left-part h3:before, .bg-color h3:before {
+		bottom: -5px;
+		left: 4px;
+	}
+	.header-center {
+		margin-bottom: 50px;
+	}
+	.left-inner-header h4:before {
+		bottom: -5px;
+	}
+	.event-content-section .right-part {
+		margin-bottom: 40px;
+	}
+	.event-content-section .left-part > ul {
+		overflow: hidden;
+	}
+	.left-part ul li {
+		width: 100%;
+	}
+	.event-content-section .margin-top {
+		padding-top: 0;
+	}
+	/*======================travel-p-page================*/
+	.header-center-content {
+		width: 100%;
+		padding: 0px 15px 50px;
+	}
+	.header-center-content h2 {
+		font-size: 26px;
+		letter-spacing: 3px;
+	}
+	.header-center-content h2::after {
+		left: -18px;
+	}
+	.travel-page .travel-page-content {
+		padding-top: 50px;
+		padding-bottom: 0;
+	}
+	.travel-page .bg-color .left-part > figure {
+		margin-left: 0px;
+	}
+	.travel-page .right-part {
+		padding-bottom: 30px;
+	}
+	.travel-page .header-center-content h2::after {
+		width: 100%;
+		left: 0px;
+	}
+	.activites {
+		padding: 40px 0;
+	}
+	.travel-page .bg-color {
+		margin-bottom: 0;
+	}
+	/*======================================Error-page=========================================*/
+	.error-header {
+		padding: 0px 12px;
+	}
+	.error-content {
+		padding: 50px 0px;
+	}
+	.error-header h1 {
+		font-size: 75px;
+		padding-bottom: 0px;
+	}
+	.sorry-cls {
+		font-size: 75px;
+	}
+	.btn-wrapper .bg-white {
+		width: 70%;
+	}
+
+}

@@ -1,0 +1,763 @@
+/*
+ Table Of Contents
+ 1.) Eric Meyer's Reset
+ 2.) Global Typography
+ 2.0.2) Global Headings
+ 2.0.3) Form Elements
+ 2.0.4) List styles
+ 2.0.5) General Text Formatting
+ 2.0.6) Link elements
+ 2.0.7) Table Elements
+ 2.0.8) Button Styles
+ 3.) Site Wide Content
+ 4.) Header Style
+ 5.) Footer Style
+ ===============================================*/
+
+/*
+ 1.) Eric Meyer's Reset
+ ----------------------------------------*/
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+ 1.) Global Typography
+ ----------------------------------------*/
+*, :before, :after {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-size: 100%;
+}
+body {
+	font-family: 'Roboto', 'Roboto Slab', sans-serif;
+}
+/*
+ 2.0.2) Global Headings
+ -----------------------------*/
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	color: #161e21;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+	margin: 0;
+	line-height: 1;
+	font-family: 'Roboto', sans-serif;
+}
+h1 {
+	font-size: 60px;
+	color: #433e3e;
+	line-height: 1.3;
+	font-weight: 700;
+	margin-top: 8px;
+}
+h2 {
+	font-size: 36px;
+	padding-bottom: 30px;
+	font-family: 'Roboto';
+	letter-spacing: 7px;
+	color: #bcbba6;
+	font-weight: 100;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+h3 {
+	font-size: 30px;
+	color: #e08e79;
+	font-family: "Roboto Slab", serif;
+	font-weight: 300;
+	margin-bottom: 30px;
+	line-height: 1.3;
+	text-transform: capitalize;
+}
+h4 {
+	font-size: 20px;
+	color: #1c2022;
+	font-weight: 400;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+/*
+ 2.0.3) Form Elements
+ -----------------------------*/
+button, input, optgroup, select, textarea {
+	margin: 0;
+	padding: 12px 25px;
+	font-size: 16px;
+	line-height: 31px;
+	color: #fff;
+	background: #e08e79;
+	border: 2px solid #fff;
+	font-family: 'Roboto Slab', serif;
+	-webkit-appearance: none;
+}
+input {
+	line-height: normal;
+}
+input:focus, select:focus, textarea:focus, button:focus {
+	border: 2px #ece5ce solid;
+	outline: 0;
+}
+input[type="checkbox"], input[type="radio"] {
+	padding: 0;
+	border: none;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"], input[type="file"] {
+	-webkit-appearance: none;
+	cursor: pointer;
+	line-height: normal;
+	overflow: visible;
+}
+input[type="text"] {
+	border-radius: 0;
+	width: 312px;
+	padding: 0px 12px 0px;
+	border: 1px solid #ece5ce;
+	float: left;
+	line-height: 53px;
+	height: 52px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	background: #e08e79;
+}
+textarea {
+	font-size: 16px;
+	color: #fff;
+	text-transform: capitalize;
+	padding: 16px 0 0 12px;
+	margin-top: 0px;
+	background: #e08e79;
+	font-weight: 400;
+	border: 2px solid #ece5ce;
+	margin-bottom: 30px;
+}
+label {
+	font-size: 16px;
+	color: #1c2022;
+	font-weight: 400;
+}
+button[disabled], input[disabled] {
+	cursor: default;
+	color: #999;
+	border-color: #ccc;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+input::-webkit-input-placeholder {
+	color: #fff;
+	font-family: roboto;
+	font-weight: 400;
+	font-size: 16px;
+	opacity: 1;
+}
+input:-moz-placeholder {/*/ Firefox 18- /*/
+	color: #fff;
+	font-family: roboto;
+	font-weight: 400;
+	font-size: 16px;
+	opacity: 1;
+}
+input::-moz-placeholder {/*/ Firefox 19- /*/
+	color: #fff;
+	font-family: roboto;
+	font-weight: 400;
+	font-size: 16px;
+	opacity: 1;
+}
+input:-ms-input-placeholder {
+	color: #fff;
+	font-family: roboto;
+	font-weight: 400;
+	font-size: 16px;
+	opacity: 1;
+}
+textarea::-moz-placeholder {
+	color: #fff;
+	font-size: 16px;
+	opacity: 1;
+	font-weight: 400;
+}
+textarea::-webkit-input-placeholder {
+	color: #fff;
+	font-size: 16px;
+	opacity: 1;
+	font-weight: 400;
+}
+textarea::-ms-input-placeholder {
+	color: #fff;
+	font-size: 16px;
+	opacity: 1;
+	font-weight: 400;
+}
+/*
+ 2.0.4) List Styles
+ ---------------------------------*/
+ul, ol, dl {
+	font-size: 100%;
+	line-height: 1.5;
+}
+li, dt {
+	line-height: 1.5em;
+}
+dl {
+	margin: 0 0 1em 0;
+}
+dd {
+	margin: 0 0 1em 0.8em;
+}
+ul {
+	list-style-type: none;
+}
+ol {
+	list-style-type: decimal;
+	margin: 0 0 1em 0;
+}
+ul ul, ol ul {
+	list-style-type: circle;
+	margin-top: 0;
+}
+ol ol {
+	list-style-type: lower-latin;
+	margin-top: 0;
+}
+/*
+ 2.0.5) General Text Formatting
+ -----------------------------------*/
+p {
+	font-size: 100%;
+	line-height: 1.7;
+}
+blockquote, cite, q, var, dfn {
+	font-style: italic;
+}
+blockquote {
+	background: transparent;
+	color: #666666;
+}
+small {
+	font-size: 85.71429%;
+	line-height: 1.75;
+}
+pre, code, kbd, tt, samp, var {
+	font-size: 100%;
+}
+pre {
+	font-size: 100%;
+	line-height: 1.5;
+	margin: 0 0 1.5em 0;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+pre, code {
+	color: #880000;
+}
+kbd, samp, var {
+	color: #666666;
+	font-weight: bold;
+}
+acronym, abbr {
+	border-bottom: 1px #aaa dotted;
+	font-variant: small-caps;
+	cursor: help;
+}
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+/*
+ 2.0.6) Link style
+ -------------------------*/
+a {
+	color: #774f38;
+	text-decoration: none;
+}
+a:hover, a:focus {
+	color: #fff;
+	text-decoration: none;
+	outline: none;
+}
+a:active {
+	outline: none;
+}
+/*
+ 2.0.7) Table Elements
+ --------------------------*/
+table {
+	width: 100%;
+	border-collapse: collapse;
+	color: #444444;
+	border-top: 1px #ccc solid;
+	border-bottom: 1px #ccc solid;
+	margin: 0 0 1.35714em 0;
+}
+caption {
+	font-variant: small-caps;
+}
+th, td {
+	line-height: 1.5em;
+	vertical-align: top;
+	padding: 0.71429em 0.5em;
+}
+th *:first-child, td *:first-child {
+	margin-top: 0;
+}
+thead th {
+	text-align: left;
+	color: #000;
+	border-bottom: 2px #000 solid;
+}
+tbody th {
+	text-align: left;
+	border-top: 1px solid #ccc;
+}
+tbody td {
+	text-align: left;
+	border-top: 1px solid #ccc;
+}
+/*
+ 2.0.8) Button Styles
+ -------------------------*/
+.btn, input.btn, button.btn {
+	display: inline-block;
+	font-size: 12px;
+	color: #000;
+	line-height: normal;
+	vertical-align: middle;
+	padding: 0 5px;
+	text-align: center;
+	white-space: nowrap;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	background: #eee;
+	letter-spacing: 1px;
+}
+button.btn-submit {
+	padding: 0px 28px;
+	line-height: 44px;
+	font-size: 13px;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	text-align: center;
+	background: #0e111a;
+	text-transform: uppercase;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	border: none;
+}
+/* Clear Floated Elements
+ ----------------------------------------------------------------------------------------------------*/
+/* http://sonspring.com/journal/clearing-floats */
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/*
+ 3.) Site Wide Content
+ ------------------------------*/
+#wrapper {
+	overflow: hidden;
+	position: relative;
+}
+p {
+	color: #757575;
+	font-size: 16px;
+	font-weight: 300;
+}
+.btn, button {
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Karla', sans-serif;
+	font-weight: 700;
+	border: 2px solid #f3dbbd;
+	background: none;
+	padding: 16px 32px 16px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	display: inline-block;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+/*
+ 4.) Header Styles
+ ------------------------------*/
+/*==== Header one======*/
+.header {
+	background: rgba(255,255,255,0.7);
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 999999;
+	right: 0;
+}
+.header-cont {
+	padding-top: 24px;
+	padding-bottom: 0px;
+}
+.logo {
+	float: left;
+	margin-top: 2px;
+	margin-left: 0px;
+	position: relative;
+}
+.logo i {
+	border-radius: 50%;
+	color: #ffffff;
+	font-size: 14px;
+	height: 30px;
+	left: 0;
+	margin: 0 auto;
+	padding-top: 8px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	width: 30px;
+	top: 6px;
+    }
+nav {
+	float: right;
+	margin-top: 10px;
+}
+.home-menu {
+	position: absolute;
+	right: 0;
+	top: 30px;
+	display: none;
+	padding: 9px 10px;
+}
+nav .icon-bar {
+	display: block;
+	height: 2px;
+	width: 22px;
+	color: #774f38;
+	background: rgba(0,0,0,0.6);
+}
+.home-menu .icon-bar + .icon-bar {
+	margin-top: 4px;
+}
+.navigation > li {
+	float: left;
+	position: relative;
+	padding: 0 15px 34px;
+}
+.navigation li a {
+	font-size: 16px;
+	color: #774f38;
+	font-family: 'roboto';
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.navigation li:last-child {
+	padding-right: 0;
+}
+.drop-down {
+	position: absolute;
+	top: 100px;
+	width: 160px;
+	z-index: 999;
+	left: -9999px;
+	opacity: 0;
+	-webkit-transition: top .2s ease, opacity .2s ease;
+	-moz-transition: top .2s ease, opacity .2s ease;
+	-ms-transition: top .2s ease, opacity .2s ease;
+	-o-transition: top .2s ease, opacity .2s ease;
+	transition: top .2s ease, opacity .2s ease;
+}
+.drop-down li {
+	list-style: none;
+	border-bottom: 1px solid rgba(119,79,56,0.3);
+	background: rgba(236, 231, 210, 0.9);
+}
+.drop-down li a {
+	color: #774f38;
+	text-transform: capitalize;
+	padding: 8px 15px;
+	display: block;
+}
+.drop-down li:last-child {
+	border-bottom: none;
+}
+.navigation > li:hover .drop-down, .error .navigation > li:hover .drop-down {
+	left: auto;
+	top: 58px;
+	opacity: 1;
+	right: 0;
+}
+.home-agency .navigation > li:hover  .drop-down {
+	top: 59px;
+}
+/*======Header Two===========*/
+.home-agency nav {
+	margin-top: 2px;
+}
+.home-agency .logo {
+	border: 1.5px solid #e29582;
+}
+.home-agency .logo img {
+	padding: 11px 14px;
+	margin: 5px;
+	display: block;
+}
+.home-agency .header {
+	height: 97px;
+}
+.home-agency .navigation li a {
+	font-size: 16px;
+}
+.home-agency .header-cont {
+	padding-bottom: 19px;
+	padding-top: 20px;
+}
+.home-agency .navigation > li {
+	padding: 16px 0px 8px 26px;
+}
+.home-agency .navigation > li:first-child{
+	padding-left:0
+}
+/*
+ 5.)   Footer Styles
+ ------------------------------*/
+/*=======footer one ========*/
+#footer {
+	text-align: center;
+}
+.primary-footer {
+	background: #3f3f3f;
+	padding: 50px 0px 86px;
+	text-align: center;
+}
+.primary-footer h4 {
+	font-size: 60px;
+	line-height: 1.4;
+	color: #fff;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-bottom: 3px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 7px;
+}
+.primary-footer h4 span {
+	font-family: 'Playfair Display', serif;
+	display: inline-block;
+	margin: 0 28px;
+}
+.main-footer {
+	background: #323232;
+	padding: 15px 10px;
+}
+.oct-class {
+	color: rgba(255,255,255,0.6);
+	font-size: 24px;
+	text-transform: uppercase;
+	font-family: 'Roboto slab', sans-serif;
+	letter-spacing: 4px;
+}
+.left-footer {
+	float: left;
+	color: #898989;
+	font-size: 14px;
+}
+.psd-temp-class {
+	padding: 11px 0 0;
+	display: block;
+	font-family: roboto;
+	font-weight: 400;
+	font-size: 16px;
+}
+.right-footer {
+	float: right;
+}
+.psd-temp-class .fa-heart {
+	color: #e08e79;
+	font-size: 16px;
+}
+.macro-class {
+	color: #898989;
+	font-weight: 500;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 16px;
+}
+.macro-class:hover {
+	color: #898989;
+}
+.circle-class {
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	background: #3f3f3f;
+	float: left;
+	margin-right: 5px;
+}
+.right-footer .fa-facebook, .right-footer .fa-twitter, .right-footer .fa-instagram, .right-footer .fa-pinterest {
+	font-size: 18px;
+	color: #fff;
+	padding-top: 10px;
+}
+/*========footer two=========*/
+.home-agency .primary-footer {
+	padding: 115px 20px 124px;
+}
+.home-agency .sec-block {
+	width: 230px;
+	float: left;
+	text-align: left;
+	margin-left: 170px;
+}
+.home-agency .sec-block h5 {
+	font-size: 16px;
+	color: #e08e79;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	padding-bottom: 10px;
+}
+.home-agency .footer-logo > a {
+	float: left;
+}
+.home-agency .footer-logo .sec-block span {
+	font-size: 16px;
+	color: #fff;
+	line-height: 1.4;
+	font-weight: 300;
+}
+.home-agency .attending-class {
+	padding-top: 115px;
+}
+.home-agency .right-footer {
+	float: none;
+	text-align: center;
+	padding-top: 15px;
+}
+.home-agency .right-footer .circle-class {
+	background: #323232;
+}
+.home-agency .right-footer .circle-class:hover {
+	background: #e08e79;
+	-webkit-transition: ease 0.5s;
+	-moz-transition: ease 0.5s;
+	-ms-transition: ease 0.5s;
+	-o-transition: ease 0.5s;
+	transition: ease 0.5s;
+}
+.home-agency .main-footer {
+	text-align: center;
+	padding: 27px 0 37px;
+}
+.home-agency .left-footer {
+	float: none;
+}
+/*sticky header style
+===================*/
+body #header {
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+body #header.fixed, body .home-agency #header.fixed {
+	left: 0;
+	margin: 0 auto;
+	position: fixed !important;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+}
+body #header.fixed {
+	background: rgba(255,255,255,0.6);
+	width: 100%;
+}
+body .top-m {
+	margin-top: 97px;
+}
+body #header.intelligent {
+	left: 0;
+	position: fixed !important;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+}
+body #header.up {
+	opacity: 0;
+	top: -162px;
+	visibility: hidden;
+}
