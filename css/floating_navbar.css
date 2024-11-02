@@ -1,0 +1,24 @@
+.floating-navbar {
+    width: 80%; /* Set navbar width to 80% */
+    left: 50%;
+    transform: translateX(-50%); /* Center the navbar */
+    z-index: 1000; /* Ensure it stays above other content */
+    border-radius: 15px; /* Rounded edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    position: fixed; /* Initially fixed to float over the carousel */
+    top: 20px; /* Initial position */
+    background-color: rgba(255, 255, 255, 0.95); /* Background color for visibility */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, top 0.3s ease; /* Smooth transition for top */
+}
+
+.floating-navbar.sticky {
+    position: fixed; /* Keep fixed */
+    top: 0; /* Stick to the top */
+    width: 100%; /* Full width */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Shadow effect when sticky */
+    border-radius: 0; /* Remove rounded edges for full width */
+}
+
+.floating-navbar:hover {
+    background-color: rgba(255, 255, 255, 0.9); /* Slight change on hover */
+}

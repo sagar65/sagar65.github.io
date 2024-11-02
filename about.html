@@ -29,80 +29,74 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/floating_navbar.css">
 </head>
 
 <body>
  <!-- Topbar Start -->
-    <div class="container-fluid d-none d-lg-block">
-        <div class="row gx-5">
-           
-            <div class="col-lg-6 text-center">
-                <div class="d-inline-flex align-items-center">
-                   
-                    <div class="text-start">
-                        
-                        <span>info@cadlions.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 text-center">
-                <div class="d-inline-flex align-items-center">
-                    
-                    <div class="text-start">
-                        
-                        <span>+1 (917) 781-0921</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<!--    <div class="container-fluid d-none d-lg-block">-->
+<!--        <div class="row gx-5">-->
+<!--           -->
+<!--            <div class="col-lg-6 text-center">-->
+<!--                <div class="d-inline-flex align-items-center">-->
+<!--                   -->
+<!--                    <div class="text-start">-->
+<!--                        -->
+<!--                        <span>info@cadlions.com</span>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-6 text-center">-->
+<!--                <div class="d-inline-flex align-items-center">-->
+<!--                    -->
+<!--                    <div class="text-start">-->
+<!--                        -->
+<!--                        <span>+1 (917) 781-0921</span>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
     <!-- Topbar End -->
 
 
     <!-- Navbar Start -->
-    <div class="container-fluid sticky-top bg-dark bg-light-radial shadow-sm px-5">
-        <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
-            <a href="index.html" class="navbar-brand">
-                <img  width="355" height="67" src="img/FinalLogo.jpeg" alt="Image">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto py-0">
-                    <a href="index.html" class="nav-item nav-link "><b>Home</b></a>
-                    <a href="about.html" class="nav-item nav-link active">About</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="project.html" class="dropdown-item">Architectural Design</a>
-                            <a href="team.html" class="dropdown-item">Structural Design</a>
-                            <a href="testimonial.html" class="dropdown-item">MEP Design</a>
-                            <a href="blog.html" class="dropdown-item">Steel Structural Detailing</a>
-                            <a href="detail.html" class="dropdown-item">PEMB Warehouse Design</a>
-							<a href="detail.html" class="dropdown-item">3D Modelling and Visualization</a>
-                        </div>
-                    </div>
-					<a href="about.html" class="nav-item nav-link">Projects</a>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
-                  
-                </div>
-            </div>
-        </nav>
-    </div>
+ <section class="floating-navbar">
+     <nav class="navbar navbar-expand-lg navbar-dark">
+         <a href="index.html" class="navbar-brand">
+             <img class="m-3" src="img/FinalLogo1.png" height="70" alt="Image">
+         </a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+             <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarCollapse">
+             <div class="navbar-nav ms-auto py-0">
+                 <a href="index.html" class="nav-item nav-link"><b>Home</b></a>
+                 <a href="about.html" class="nav-item nav-link active">About</a>
+                 <div class="nav-item dropdown">
+                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                     <div class="dropdown-menu m-0 animated slow">
+                         <a href="Architectural.html" class="dropdown-item">Architectural Design | Drafting</a>
+                         <a href="Structural.html" class="dropdown-item">Structural Design | Drafting</a>
+                         <a href="MEP.html" class="dropdown-item">MEP Design | Drafting</a>
+                         <a href="Steel.html" class="dropdown-item">Steel Structural Detailing</a>
+                         <a href="PEMB.html" class="dropdown-item">PEMB Warehouse Design - Detailing</a>
+                         <a href="Modelling.html" class="dropdown-item">3D Modelling and Visualization</a>
+                         <a href="CAD.html" class="dropdown-item">CAD TO BIM - SCAN TO BIM Services</a>
+                         <a href="Connection.html" class="dropdown-item">Connection Design - PE Stamping</a>
+                         <a href="Landscaping.html" class="dropdown-item">Landscaping | Topography Services</a>
+                         <a href="Fabrication.html" class="dropdown-item">Steel Fabrication | Steel Erection</a>
+                     </div>
+                 </div>
+                 <a href="about.html" class="nav-item nav-link">Projects</a>
+                 <a href="contact.html" class="nav-item nav-link">Contact</a>
+             </div>
+         </div>
+     </nav>
+ </section>
+ <div class="bg-img">
+ </div>
     <!-- Navbar End -->
-
-
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header">
-        <h1 class="display-3 text-uppercase text-white mb-3">About</h1>
-        <div class="d-inline-flex text-white">
-            <h6 class="text-uppercase m-0"><a href="">Home</a></h6>
-            <h6 class="text-white m-0 px-3">/</h6>
-            <h6 class="text-uppercase text-white m-0">About</h6>
-        </div>
-    </div>
-    <!-- Page Header Start -->
 
 
     <!-- About Start -->
@@ -189,6 +183,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/floating_navbar.js"></script>
 </body>
 
 </html>
