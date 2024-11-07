@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+    .text-overlay {
+        font-size: medium;
+        padding: 5px;
+    }
+}

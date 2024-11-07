@@ -130,7 +130,6 @@
   width: 1.5em;
   height: 1.5em;
   vertical-align: middle;
-  content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
 }
@@ -278,8 +277,8 @@
   }
 
   .navbar-toggler {
-    color: $navbar-dark-color;
-    border-color: $navbar-dark-toggler-border-color;
+    color: red;
+    border-color: red;
   }
 
   .navbar-toggler-icon {
