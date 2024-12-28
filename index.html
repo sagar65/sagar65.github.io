@@ -11,7 +11,7 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet" />
-<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-aWesome/4.7.0/css/font-aWesome.min.css" />-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-aWesome/4.7.0/css/font-aWesome.min.css" />
     <link rel="stylesheet" href="css/animate.css" />
     <!-- Icon Font Stylesheet -->
     <!-- Icon Font Stylesheet -->
@@ -27,10 +27,33 @@
     <link href="css/owl.theme.default.min.css" rel="stylesheet" />
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
-
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="stylesheet" href="css/floating_navbar.css" />
-    <link rel="stylesheet" href="css/owl-carousel.css" />
+    <style>
+        .owl-text-overlay {
+            position: absolute;
+            text-align: center;
+            width: 60%;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.4);
+        }
+        h2.owl-title {
+            margin: 20px;
+            color: whitesmoke;
+            font-weight: bold;
+        }
+		<!-- .owl-img{ -->
+		<!-- animation:zoomIn; -->
+		<!-- animation-duration:10s; -->
+		<!-- } -->
+    </style>
 </head>
 <body>
 <!-- Topbar Start -->
@@ -57,7 +80,7 @@
 <section class="floating-navbar">
     <nav class="navbar navbar-expand-lg navbar-dark">
         <a href="index.html" class="navbar-brand">
-            <img class="m-3" src="img/FinalLogo1.webp" height="70" alt="Image" loading="lazy"/>
+            <img class="m-3" src="img/FinalLogo1.png" height="70" alt="Image" />
         </a>
         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -96,19 +119,19 @@
         <div class="owl-text-overlay">
             <h2 class="owl-title">Where vision meets precision, and structures stand the test of time</h2>
         </div>
-        <img class="owl-img" src="img/h1_hero.jpg" height="700" loading="lazy" />
+        <img class="owl-img" src="img/h1_hero.jpg" height="700" />
     </div>
     <div>
         <div class="owl-text-overlay hidden-xs">
             <h2 class="owl-title">Innovative structures that support the world, from concept to completion</h2>
         </div>
-        <img class="owl-img" src="img/H2.jpg" height="700" loading="lazy"/>
+        <img class="owl-img" src="img/H2.jpg" height="700" />
     </div>
 	<div>
         <div class="owl-text-overlay hidden-xs">
             <h2 class="owl-title">Supporting the future with strong foundations and inspired designs</h2>
         </div>
-        <img class="owl-img" src="img/H3.jpg" height="700" loading="lazy"/>
+        <img class="owl-img" src="img/HMEIMG.jfif" height="700" />
     </div>
 </div>
 <!-- Navbar End -->
@@ -148,7 +171,7 @@
         </div>
         <div class="col-lg-5 pb-5" style="min-height: 400px;">
             <div class="position-relative bg-dark-radial h-100 ms-5">
-                <img class="position-absolute w-100 h-100 mt-5 ms-n5" src="img/about2.jpg" style="object-fit: cover;" loading="lazy"/>
+                <img class="position-absolute w-100 h-100 mt-5 ms-n5" src="img/about2.jpg" style="object-fit: cover;" />
             </div>
         </div>
     </div>
@@ -164,9 +187,9 @@
 
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-12 col-md-4 pb-4">
+            <div class="col-4 pb-4">
                 <div class="service-item bg-white d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="img/service-2.jpg" alt="" loading="lazy"/>
+                    <img class="img-fluid img-service" src="img/Services/Arch.jpeg" alt="" />
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-landmark text-primary1"></i>
                     </div>
@@ -180,9 +203,9 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-4 pb-4">
+            <div class="col-4 pb-4">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="img/service-2.jpg" alt="" loading="lazy"/>
+                    <img class="img-fluid img-service" src="img/Services/Structural.jpg" alt="" />
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-building text-primary1"></i>
                     </div>
@@ -196,9 +219,9 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-4 pb-4">
+            <div class="col-4 pb-4">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="img/service-3.jpg" alt="" loading="lazy"/>
+                    <img class="img-fluid img-service" src="img/Services/MEP.png" alt="" />
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-tools text-primary1"></i>
                     </div>
@@ -212,9 +235,9 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-4 pb-4">
+            <div class="col-4 pb-4">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="img/service-4.jpg" alt="" loading="lazy"/>
+                    <img class="img-fluid img-service" src="img/Services/Steel Structural.png" alt="" />
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-torii-gate text-primary1"></i>
                     </div>
@@ -228,9 +251,9 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-4 pb-4">
+            <div class="col-4 pb-4">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="img/service-5.jpg" alt="" loading="lazy"/>
+                    <img class="img-fluid img-service" src="img/Services/PEMB.png" alt="" />
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-warehouse text-primary1"></i>
                     </div>
@@ -247,9 +270,9 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-4 pb-4">
+            <div class="col-4 pb-4">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="img/service-6.jpg" alt="" loading="lazy"/>
+                    <img class="img-fluid img-service" src="img/Services/3D.jpg" alt="" />
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-cubes text-primary1"></i>
                     </div>
@@ -263,9 +286,9 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-4 pb-4">
+            <div class="col-4 pb-4">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="img/service-4.jpg" alt="" loading="lazy"/>
+                    <img class="img-fluid img-service" src="img/Services/CAD TO BIM.png" alt="" />
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-drafting-compass text-primary1"></i>
                     </div>
@@ -279,9 +302,9 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-4 pb-4">
+            <div class="col-4 pb-4">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="img/service-5.jpg" alt="" loading="lazy"/>
+                    <img class="img-fluid img-service" src="img/Services/Connection Design.png" alt="" />
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-link text-primary1"></i>
                     </div>
@@ -295,9 +318,9 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-4 pb-4">
+            <div class="col-4 pb-4">
                 <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="img/service-5.jpg" alt="" loading="lazy"/>
+                    <img class="img-fluid img-service" src="img/Services/Landscaping.jpg" alt="" />
                     <div class="service-icon bg-white">
                         <i class="fa fa-3x fa-mountain text-primary1"></i>
                     </div>
@@ -316,6 +339,14 @@
     </div>
 
     <div class="row w-75 justify-content-center">
+
+
+
+
+
+
+
+
     </div>
 </div>
 <!-- Services End -->
@@ -332,7 +363,7 @@
                 <ul class="list-inline mb-0" id="portfolio-flters">
                     <a href="">
                         <li class="btn btn-outline-primary bg-white p-2 active mx-2 mb-4" data-filter="*">
-                            <img src="img/portfolio-1.jpg" style="width: 150px; height: 100px;" loading="lazy"/>
+                            <img src="img/portfolio-1.jpg" style="width: 150px; height: 100px;" />
                             <div class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center" style="background: rgba(4, 15, 40, 0.3);">
                                 <h6 class="text-white text-uppercase m-0">All</h6>
                             </div>
@@ -340,7 +371,7 @@
                     </a>
                     <a href="">
                         <li class="btn btn-outline-primary bg-white p-2 mx-2 mb-4" data-filter=".first">
-                            <img src="img/portfolio-2.jpg" style="width: 150px; height: 100px;" loading="lazy"/>
+                            <img src="img/portfolio-2.jpg" style="width: 150px; height: 100px;" />
                             <div class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center" style="background: rgba(4, 15, 40, 0.3);">
                                 <h6 class="text-white text-uppercase m-0">Architectural</h6>
                             </div>
@@ -348,7 +379,7 @@
                     </a>
                     <a href="">
                         <li class="btn btn-outline-primary bg-white p-2 mx-2 mb-4" data-filter=".second">
-                            <img src="img/portfolio-3.jpg" style="width: 150px; height: 100px;" loading="lazy"/>
+                            <img src="img/portfolio-3.jpg" style="width: 150px; height: 100px;" />
                             <div class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center" style="background: rgba(4, 15, 40, 0.3);">
                                 <h6 class="text-white text-uppercase m-0">Structural</h6>
                             </div>
@@ -361,84 +392,84 @@
     <div class="row g-5 portfolio-container">
         <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item first">
             <div class="position-relative portfolio-box">
-                <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="" loading="lazy"/>
+                <img class="img-fluid w-100 project-img" src="img/Projects/3D.jpg" alt="" />
                 <a class="portfolio-title shadow-sm" href="">
-                    <p class="h4 text-uppercase">Project Name</p>
+                    <p class="h4 text-uppercase">3D Modelling and Visualization</p>
                     <span class="text-body">
 								<i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA
 							</span>
                 </a>
-                <a class="portfolio-btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                <a class="portfolio-btn" href="img/Projects/3D.jpg" data-lightbox="portfolio">
                     <i class="bi bi-plus text-white"></i>
                 </a>
             </div>
         </div>
         <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second">
             <div class="position-relative portfolio-box">
-                <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="" loading="lazy"/>
+                <img class="img-fluid w-100 project-img" src="img/Projects/Arch.jpg" alt="" />
                 <a class="portfolio-title shadow-sm" href="">
-                    <p class="h4 text-uppercase">Project Name</p>
+                    <p class="h4 text-uppercase">Architectural</p>
                     <span class="text-body">
 								<i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA
 							</span>
                 </a>
-                <a class="portfolio-btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                <a class="portfolio-btn" href="img/Projects/Arch.jpg" data-lightbox="portfolio">
                     <i class="bi bi-plus text-white"></i>
                 </a>
             </div>
         </div>
         <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item first">
             <div class="position-relative portfolio-box">
-                <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="" loading="lazy"/>
+                <img class="img-fluid w-100 project-img" src="img/Projects/CAD TO BIM.png" alt="" />
                 <a class="portfolio-title shadow-sm" href="">
-                    <p class="h4 text-uppercase">Project Name</p>
+                    <p class="h4 text-uppercase">CAD to BIM</p>
                     <span class="text-body">
 								<i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA
 							</span>
                 </a>
-                <a class="portfolio-btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                <a class="portfolio-btn" href="img/Projects/CAD TO BIM.png" data-lightbox="portfolio">
                     <i class="bi bi-plus text-white"></i>
                 </a>
             </div>
         </div>
         <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second">
             <div class="position-relative portfolio-box">
-                <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="" loading="lazy"/>
+                <img class="img-fluid w-100 project-img" src="img/Projects/MEP Project.png" alt="" />
                 <a class="portfolio-title shadow-sm" href="">
-                    <p class="h4 text-uppercase">Project Name</p>
+                    <p class="h4 text-uppercase">MEP Design</p>
                     <span class="text-body">
 								<i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA
 							</span>
                 </a>
-                <a class="portfolio-btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                <a class="portfolio-btn" href="img/Projects/MEP Project.png" data-lightbox="portfolio">
                     <i class="bi bi-plus text-white"></i>
                 </a>
             </div>
         </div>
         <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item first">
             <div class="position-relative portfolio-box">
-                <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="" loading="lazy"/>
+                <img class="img-fluid w-100 project-img" src="img/Projects/PEMB.png" alt="" />
                 <a class="portfolio-title shadow-sm" href="">
-                    <p class="h4 text-uppercase">Project Name</p>
+                    <p class="h4 text-uppercase">PEMB</p>
                     <span class="text-body">
 								<i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA
 							</span>
                 </a>
-                <a class="portfolio-btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">
+                <a class="portfolio-btn" href="img/Projects/PEMB.png" data-lightbox="portfolio">
                     <i class="bi bi-plus text-white"></i>
                 </a>
             </div>
         </div>
         <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second">
             <div class="position-relative portfolio-box">
-                <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="" loading="lazy"/>
+                <img class="img-fluid w-100 project-img" src="img/Projects/Steel Detaling.png" alt="" />
                 <a class="portfolio-title shadow-sm" href="">
-                    <p class="h4 text-uppercase">Project Name</p>
+                    <p class="h4 text-uppercase">Steel Detailing</p>
                     <span class="text-body">
-								<i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA
+								<i class="fa fa-map-marker-alt text-primary me-2"></i>123 , New York, USA
 							</span>
                 </a>
-                <a class="portfolio-btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">
+                <a class="portfolio-btn" href="img/Projects/Steel Detaling.png" data-lightbox="portfolio">
                     <i class="bi bi-plus text-white"></i>
                 </a>
             </div>
@@ -451,7 +482,7 @@
     <div class="row g-5">
         <div class="col-lg-6 pe-lg-5">
             <a href="index.html" class="navbar-brand">
-                <img height="70" src="img/logodesign.png" alt="Image" loading="lazy"/>
+                <img height="70" src="img/logodesign.png" alt="Image" />
             </a>
             <p class="footer-note">Building the future with precision and innovation—where structure meets vision</p>
             <p>
@@ -494,15 +525,15 @@
         </div>
     </div>
 </div>
-<!--<div class="container-fluid bg-dark bg-light-radial text-white border-top border-primary px-0">-->
-<!--    <div class="d-flex flex-column flex-md-row justify-content-betWeen">-->
-<!--        <div class="py-2 px-0 text-center text-md-start">-->
-<!--            <p class="mb-0">&copy;-->
-<!--                <a class="text-primary" href="#">Your Site Name</a>. All Rights Reserved.-->
-<!--            </p>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
+<div class="container-fluid bg-dark bg-light-radial text-white border-top border-primary px-0">
+    <div class="d-flex flex-column flex-md-row justify-content-betWeen">
+        <div class="py-2 px-0 text-center text-md-start">
+            <p class="mb-0">&copy;
+                <a class="text-primary" href="#">Your Site Name</a>. All Rights Reserved.
+            </p>
+        </div>
+    </div>
+</div>
 <!-- Footer End -->
 <!-- Back to Top -->
 <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top">
@@ -525,6 +556,8 @@
             loop: true,
             autoplay: true,
             autoplayTimeout: 3000,
+			
+
         });
     });
 </script>
