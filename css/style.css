@@ -310,3 +310,54 @@
   /* Needed to position the navbar */
   position: relative;
 }
+
+.img-service {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-project {
+    height: 300px;
+    max-width: 100%;
+}
+
+.img-logo {
+    height: 100px !important;
+}
+
+@media (max-width: 768px) {
+    .img-logo {
+        height: 40px !important;
+    }
+}
+
+.owl-text-overlay {
+    position: absolute;
+    text-align: center;
+    width: 60%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+h2.owl-title {
+    margin: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.owl-img{
+    height: 980px;
+}
+
+@media (max-width: 768px) {
+    .owl-img {
+        height: 800px;
+    }
+}
